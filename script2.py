@@ -28,7 +28,7 @@ def generate_random_prime(min_val=2, max_val=1000):
             return num
 
 def main():
-    print("hello!")
+    print("hello forest people!")
     prime = generate_random_prime()
     print(f"Here's a random prime number for you: {prime}")
 
