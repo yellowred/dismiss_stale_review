@@ -22,6 +22,7 @@ def is_prime(n):
 
 def generate_random_prime(min_val=2, max_val=1000):
     """Generate a random prime number within the given range."""
+    print("Started to generate")
     while True:
         num = random.randint(min_val, max_val)
         if is_prime(num):
